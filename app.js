@@ -1,5 +1,3 @@
-
-// variables and constants
 const cartContainer = document.querySelector('.cart-container');
 const productList = document.querySelector('.product-list');
 const cartList = document.querySelector('.cart-list');
@@ -9,19 +7,16 @@ let cartItemID = 1;
 
 eventListeners();
 
-// all event listeners
 function eventListeners(){
     window.addEventListener('DOMContentLoaded', () => {
         loadJSON();
         loadCart();
     });
-    // toggle navbar when toggle button is clicked
-    // show/hide cart container
+
     document.getElementById('cart-btn').addEventListener('click', () => {
         cartContainer.classList.toggle('show-cart-container');
     });
 
-    // add to cart
     productList.addEventListener('click', purchaseProduct);
 
     // delete from cart

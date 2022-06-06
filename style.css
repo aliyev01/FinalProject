@@ -181,6 +181,7 @@ header .container{
     justify-content: flex-start;
     background: var(--fire-bush);
     color: #fff;
+    
 }
 .cart-total h3{
     margin-right: 0.2rem;
