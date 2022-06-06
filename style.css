@@ -307,6 +307,8 @@ header .container{
     -ms-transition: var(--trans);
     -o-transition: var(--trans);
     opacity: 0;
+    width: 150px;
+    border-radius: 56px;
 }
 .product-item:hover .add-to-cart-btn{
     opacity: 1;
